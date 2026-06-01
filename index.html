@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm [Marlon Acupinpin]</h1>
+    <p>Aspiring Web Developer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>SINGLE AND READY TO MINGLE</p>
+  </section>
+
+  <section id="projects">
+  <h2>My Projects</h2>
+  <div class="project-container">
+    
+    <div class="project-box">
+  <h3>Project 1</h3>
+  <p>This is a placeholder for my first project.</p>
+  <button onclick="alert('I MISS YOU.')">View Project</button>
+  <p id="details1" style="display:none; margin-top:10px; color:#001f3f;"></p>
+</div>
+
+    <div class="project-box">
+      <h3>Project 2</h3>
+      <p>Future project: Task Tracker App</p>
+      <button>View Project</button>
+    </div>
+
+    <div class="project-box">
+      <h3>Project 3</h3>
+      <p>Future project: Personal Blog</p>
+      <button>View Project</button>
+    </div>
+
+  </div>
+</section>
+
+  <footer>
+    <p>Contact me at: marlonlacupinpin@adssu.edu.ph</p>
+  </footer>
+  <script>
+function showDetails1() {
+  document.getElementById('details1').innerText = 'This portfolio site was built with HTML/CSS and Flexbox. It showcases my coding projects for the Systems Architecture final.';
+  document.getElementById('details1').style.display = 'block';
+}
+</script>
+</body>
+</html>
